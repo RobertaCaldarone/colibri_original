@@ -9,13 +9,14 @@ def get_mem_usage(container_name: str):
     return stats["memory_stats"]["usage"] / (1024 * 1024)
 
 
-def monitor_container_resources(container_name: str, stop_event, result_holder, interval=0.5):
+def monitor_container_resources(container_name: str, stop_event, result_holder, interval=0.01):
     container = docker_client.containers.get(container_name)
 
     memory_samples = []
     prev_stats = container.stats(stream=False)
-    
+
     print(f"[=] Starting monitoring for '{container_name}' ...")
+
 
     try:
         while not stop_event.is_set():
@@ -30,6 +31,7 @@ def monitor_container_resources(container_name: str, stop_event, result_holder, 
         print("Monitoraggio interrotto manualmente.")
     finally:
         log_ok("Monitoring finished")
+
 
     memory_avg = statistics.mean(memory_samples)
     memory_peak = max(memory_samples)

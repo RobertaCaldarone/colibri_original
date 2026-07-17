@@ -77,7 +77,7 @@ def get_veth(container_name: str):
 def exec_in_container(container_name: str, command: str, workdir: str = None, privileged: bool = False) -> str:
     try:
         container = docker_client.containers.get(container_name)
-        log_info(f"Running '{container_name}': {command}")
+        #log_info(f"Running '{container_name}': {command}")
 
         result = container.exec_run(
             cmd=command,
@@ -95,10 +95,10 @@ def exec_in_container(container_name: str, command: str, workdir: str = None, pr
         
         # fare il parsing dell'output per prendere il benchmark
 
-        if result.exit_code == 0:
-            log_ok(f"Command inside '{container_name}' completed")
-        else:
-            log_err(f"Error running the command (exit code {result.exit_code})")
+        if result.exit_code != 0:
+            #log_ok(f"Command inside '{container_name}' completed")
+        #else:
+            log_err(f"Error running the command '{command}' in '{container_name}' (exit code {result.exit_code})")
 
         return output
 

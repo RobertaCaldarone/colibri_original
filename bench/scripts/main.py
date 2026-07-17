@@ -9,6 +9,7 @@ import time
 import os
 import re
 import statistics
+import argparse
 
 CONF_FILE = "config.yml"
 
@@ -16,7 +17,7 @@ all_results = []
 timings_list = []
 
 def run_single_iteration(container_name, command):
-
+    
     stop_event = threading.Event()
     result_holder = [] 
 
@@ -33,18 +34,21 @@ def run_single_iteration(container_name, command):
     stop_event.set()
     monitor_thread.join()
 
-    metrics = result_holder[0]  
+    metrics = result_holder[0]
     return metrics, result
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Colibri Benchmark")
+    parser.add_argument("--runs", type=int, default=None, help="Numero di iterazioni (sovrascrive config.yml)")
+    args = parser.parse_args()
     #---------------------------------------------------------------
     # LOAD CONFIGURATION FILE 
     #---------------------------------------------------------------
     print(f"[=] Parsing configuration file {CONF_FILE} ...");
     with open(CONF_FILE) as f:
         config = yaml.safe_load(f)
-
-    ITERATIONS = config["iterations"]
+    # Se l'utente passa --runs, usiamo quello, altrimenti il default dal file
+    ITERATIONS = args.runs if args.runs is not None else config["iterations"]
     RESULTS_DIR = config["results_dir"] 
     COMPOSE_FILE = config["compose_file"]
     LOG_INITIATOR = config["log_initiator"]
@@ -115,15 +119,24 @@ if __name__ == "__main__":
     }
     #docker_compose_down(compose_file=config["compose_file"]);
 
-    init_values = [t["init_duration"] for t in timings_list if t["init_duration"] is not None]
-    auth_values = [t["auth_duration"] for t in timings_list if t["auth_duration"] is not None]
+    init_values = sorted([t["init_duration"] for t in timings_list if t["init_duration"] is not None])
+    auth_values = sorted([t["auth_duration"] for t in timings_list if t["auth_duration"] is not None])
 
-    media_init = round(sum(init_values) / len(init_values), 6) if init_values else None
-    media_auth = round(sum(auth_values) / len(auth_values), 6) if auth_values else None
+    def get_detailed_stats(data):
+        if not data: return None
+        n = len(data)
+        return {
+            "min": min(data),
+            "median": statistics.median(data),
+            "p90": data[int(n * 0.90)],
+            "p99": data[int(n * 0.99)],
+            "max": max(data),
+            "avg": statistics.mean(data)
+        }
 
     time_summary = {
-        "init_avg": media_init,
-        "auth_avg": media_auth
+        "init": get_detailed_stats(init_values),
+        "auth": get_detailed_stats(auth_values)
     }
 
     summary = {**memory_summary, **time_summary}
@@ -135,7 +148,7 @@ if __name__ == "__main__":
 
 
 
-    RESULT_PATH = f"../results/{timestamp}_{CONTAINER_INITIATOR}_{CONNECTION_NAME}.json"
+    RESULT_PATH = f"../results/{timestamp}_{CONTAINER_INITIATOR}_{CONNECTION_NAME}_runs{ITERATIONS}.json"
 
     save_benchmark_results(all_results, summary, output_path=RESULT_PATH)
     print(f"[+] Benchmark saved in: {RESULT_PATH}")

@@ -1,0 +1,66 @@
+14:53:55 [32mINFO [0m [90m[0m[32mConfiguration file conf.ini loaded successfully[0m
+14:53:55 [32mINFO [0m [90m[0m[32m[CFG] module successfully setup[0m
+14:53:55 [32mINFO [0m [90m[0m[32m[32mStarting the init process of hummingbird...[0m[0m
+14:53:55 [36mDEBUG[0m [90m[0m[36m[NET] Validating configurations options[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mPeer socket at [1m127.0.0.1:500[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mLocal socket of type AF_INET created...[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mInitiator running on socket (IPv4):[1m58292[0m[0m
+14:53:55 [36mDEBUG[0m [90m[0m[36m[CRY] Validating configurations options[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSAi : aes128-sha1_96-x25519-prfsha1[0m
+14:53:55 [31mERROR[0m [90m[0m[31m[CFG] unknown enc: aes128[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSPIi: 0x66374c08b5eab10e[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mNi  : 0x1dd7bf08f302acbef8a31e548d005020db881a57350db9a93bb232b29200994f[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mKEi : 0x4691b8166bbccfa2a8d91e384ac7c336a61740b1d71fb8baa52b2c8abb019151[0m
+14:53:55 [36mDEBUG[0m [90m[0m[36m[AUT] Validating configurations options[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mAuth Method PSK[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mID: 127.0.0.1 and PSK: [1mpadrepio[0m
+14:53:55 [32mINFO [0m [90m[0m[32m[IKE] module successfully setup[0m
+14:53:55 [36mDEBUG[0m [90m[0m[36mGenerating KEi payload[0m
+14:53:55 [36mDEBUG[0m [90m[0m[36mReceived INIT response with dimension 36 bytes[0m
+14:53:55 [36mDEBUG[0m [90m[0m[36mNotify Payload received[0m
+14:53:55 [36mDEBUG[0m [90m[0m[36mDeriving shared secret of the KEX[0m
+14:53:55 [32mINFO [0m [90m[0m[32mSegreto derivato[0m
+14:53:55 [36mDEBUG[0m [90m[0m[36mSKEYSSED: 0x6105fcdbc8fba8df77[0m
+14:53:55 [32mINFO [0m [90m[0m[32mT_Buffer popoulated[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSK_d : 0x949c10d1c8fec2b347d3f22dad0ccff4f94582f8[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSK_ai: 0xa90ad55dc34c2339783e62dd56d0fb0ee39402be[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSK_ar: 0x7258de3c50b121092f90c96f8ccd7c96d63a28d3[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSK_ei: 0x692cd9ac224c95f216d0a9561de7a821[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSK_er: 0x45a322d191a4d899f99a8ff283572edb[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSK_pi: 0xe67242e892c420bc1c43807b1e36d86f1c797472[0m
+14:53:55 [94mTRACE[0m [90m[0m[94mSK_pr: 0xece682ee99d0271274175dad98862395d3fb3a35[0m
+14:53:55 [32mINFO [0m [90m[0m[32mIKE SA properly configured[0m
+14:53:55 [32mINFO [0m [90m[0m[32mWaiting for the IKE AUTH response[0m
+14:53:57 [36mDEBUG[0m [90m[0m[36mBytes received from the responder -1[0m
+14:53:57 [32mINFO [0m [90m[0m[32mHandshake time: 2.115504 seconds[0m
+14:53:57 [32mINFO [0m [90m[0m[32mTotal traffic exchanged: 295 bytes[0m
+14:53:57 [32mINFO [0m [90m[0m[32m###############################################################[0m
+14:53:57 [32mINFO [0m [90m[0m[32mBENCHMARK[0m
+14:53:57 [32mINFO [0m [90m[0m[32m###############################################################[0m
+14:53:57 [32mINFO [0m [90m[0m[32m[BENCH] Init Time: [1m0.001417s[0m[0m
+14:53:57 [32mINFO [0m [90m[0m[32m[BENCH] Init Size: [1m152 bytes[0m[0m
+14:53:57 [32mINFO [0m [90m[0m[32m[BENCH] Auth Time: [1m0.008140s[0m[0m
+14:53:57 [32mINFO [0m [90m[0m[32m[BENCH] Auth Size: [1m108 bytes[0m[0m
+ErrorErrorErrore	Command being timed: "./build/colibri"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 417
+	Voluntary context switches: 3
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

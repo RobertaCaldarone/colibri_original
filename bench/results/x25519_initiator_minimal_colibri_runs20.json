@@ -1,0 +1,127 @@
+{
+    "timestamp": "2026-07-21 10:44:29",
+    "individual_runs": [
+        {
+            "memory_avg": 17.078125,
+            "memory_std": 1.6118926567894398,
+            "memory_peak": 19.9609375
+        },
+        {
+            "memory_avg": 16.35390625,
+            "memory_std": 0.045184355440378916,
+            "memory_peak": 16.390625
+        },
+        {
+            "memory_avg": 16.87578125,
+            "memory_std": 1.1545278560140937,
+            "memory_peak": 18.93359375
+        },
+        {
+            "memory_avg": 16.4734375,
+            "memory_std": 0.15404696929832798,
+            "memory_peak": 16.5859375
+        },
+        {
+            "memory_avg": 16.5390625,
+            "memory_std": 0.08838834764831845,
+            "memory_peak": 16.6640625
+        },
+        {
+            "memory_avg": 16.40078125,
+            "memory_std": 0.08772119085043677,
+            "memory_peak": 16.46484375
+        },
+        {
+            "memory_avg": 16.62734375,
+            "memory_std": 0.3437455610508847,
+            "memory_peak": 17.21484375
+        },
+        {
+            "memory_avg": 16.84609375,
+            "memory_std": 1.0435888839907517,
+            "memory_peak": 18.7109375
+        },
+        {
+            "memory_avg": 16.86796875,
+            "memory_std": 0.7554398666272808,
+            "memory_peak": 18.20703125
+        },
+        {
+            "memory_avg": 16.75859375,
+            "memory_std": 0.5268907197573386,
+            "memory_peak": 17.671875
+        },
+        {
+            "memory_avg": 16.46875,
+            "memory_std": 0.06418623720763665,
+            "memory_peak": 16.515625
+        },
+        {
+            "memory_avg": 16.73046875,
+            "memory_std": 0.5466168475516866,
+            "memory_peak": 17.6796875
+        },
+        {
+            "memory_avg": 16.66171875,
+            "memory_std": 0.37751031520468087,
+            "memory_peak": 17.3046875
+        },
+        {
+            "memory_avg": 16.5375,
+            "memory_std": 0.5205845760116697,
+            "memory_peak": 17.46875
+        },
+        {
+            "memory_avg": 16.33984375,
+            "memory_std": 0.032093118603818326,
+            "memory_peak": 16.36328125
+        },
+        {
+            "memory_avg": 16.70625,
+            "memory_std": 0.7262337545918627,
+            "memory_peak": 17.98046875
+        },
+        {
+            "memory_avg": 16.5265625,
+            "memory_std": 0.29770135813061466,
+            "memory_peak": 17.05078125
+        },
+        {
+            "memory_avg": 16.6921875,
+            "memory_std": 0.5080032694553686,
+            "memory_peak": 17.5625
+        },
+        {
+            "memory_avg": 16.4546875,
+            "memory_std": 0.33541019662496846,
+            "memory_peak": 17.0546875
+        },
+        {
+            "memory_avg": 16.60625,
+            "memory_std": 0.6025408035327359,
+            "memory_peak": 17.68359375
+        }
+    ],
+    "summary": {
+        "memory_avg_mean": 16.627265625,
+        "memory_avg_std": 0.1952086730610094,
+        "memory_peak_mean": 17.4734375,
+        "memory_peak_std": 0.9462411163152825,
+        "init": {
+            "min": 0.002167,
+            "median": 0.003144,
+            "p90": 0.005735,
+            "p99": 0.006309,
+            "max": 0.006309,
+            "avg": 0.00352925
+        },
+        "auth": {
+            "min": 0.000366,
+            "median": 0.0007310000000000001,
+            "p90": 0.00339,
+            "p99": 0.004633,
+            "max": 0.004633,
+            "avg": 0.0013079
+        }
+    }
+}

@@ -104,6 +104,11 @@ def parse_benchmark_output(output: str):
             match = re.search(r"Auth Time:\s*([\d.]+)s", clean_line)
             if match:
                 auth_time = float(match.group(1))
+        
+        if "Handshake time" in clean_line:
+            match = re.search(r"Handshake time:\s*([\d.]+)\s*seconds", clean_line)
+            if match:
+                total_time = float(match.group(1))
 
 
     print(f"Init time {init_time}")
@@ -112,6 +117,7 @@ def parse_benchmark_output(output: str):
     results = {
         "init_duration": round(init_time, 6) if init_time else None,
         "auth_duration": round(auth_time, 6) if auth_time else None,
+        "total_duration": round(total_time, 6) if total_time else None,
     }
     
     return results

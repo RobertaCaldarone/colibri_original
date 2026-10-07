@@ -1,0 +1,53 @@
+{
+    "timestamp": "2026-07-21 11:18:56",
+    "individual_runs": [
+        {
+            "memory_avg": 16.128125,
+            "memory_std": 0.3808784049732933,
+            "memory_peak": 16.75
+        },
+        {
+            "memory_avg": 16.0140625,
+            "memory_std": 0.3153386696275926,
+            "memory_peak": 16.578125
+        },
+        {
+            "memory_avg": 16.2515625,
+            "memory_std": 1.0806328395826101,
+            "memory_peak": 18.18359375
+        }
+    ],
+    "summary": {
+        "memory_avg_mean": 16.13125,
+        "memory_avg_std": 0.11878083481248,
+        "memory_peak_mean": 17.170572916666668,
+        "memory_peak_std": 0.8815008000460186,
+        "init": {
+            "min": 0.002781,
+            "median": 0.007059,
+            "p90": 0.04912,
+            "p99": 0.04912,
+            "max": 0.04912,
+            "avg": 0.01965333333333333
+        },
+        "auth": {
+            "min": 0.000405,
+            "median": 0.001205,
+            "p90": 0.00348,
+            "p99": 0.00348,
+            "max": 0.00348,
+            "avg": 0.0016966666666666666
+        },
+        "condition": {
+            "cipher_suite": "x25519",
+            "scenario": "terrestrial",
+            "rtt_requested_ms": 1.0,
+            "jitter_requested_ms": 0.0,
+            "loss_pct": 0,
+            "delay_mode": "split",
+            "runs": 3,
+            "container_initiator": "initiator_minimal",
+            "connection_name": "colibri"
+        }
+    }
+}

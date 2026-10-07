@@ -2,7 +2,7 @@ import json
 import time
 import os
 
-def save_benchmark_results(all_results, summary, output_path="../results/benchmarks.json"):
+def save_benchmark_results(all_results, summary, condition=None, output_path="../results/benchmarks.json"):
     """
     Salva i risultati di tutte le iterazioni e il riepilogo in un file JSON.
 
@@ -13,11 +13,12 @@ def save_benchmark_results(all_results, summary, output_path="../results/benchma
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    data = {
-        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "individual_runs": all_results,
-        "summary": summary
-    }
+    data = {}
+    if condition is not None:
+        data["condition"] = condition
+    data["timestamp"] = time.strftime("%Y-%m-%d %H:%M:%S")
+    data["individual_runs"] = all_results
+    data["summary"] = summary
 
     with open(output_path, "w") as f:
         json.dump(data, f, indent=4)

@@ -1,0 +1,2548 @@
+{
+    "condition": {
+        "cipher_suite": "mlkem512",
+        "scenario": "leo",
+        "rtt_requested_ms": 50.0,
+        "baseline_rtt_ms": 0.1,
+        "netem_delay_applied_ms": 49.9,
+        "jitter_requested_ms": 5.0,
+        "loss_pct": 0,
+        "delay_mode": "split",
+        "runs": 500,
+        "container_initiator": "initiator_minimal",
+        "connection_name": "colibri"
+    },
+    "timestamp": "2026-07-24 01:20:45",
+    "individual_runs": [
+        {
+            "memory_avg": 16.2484375,
+            "memory_std": 1.5478847714300312,
+            "memory_peak": 19.0078125
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.66484375,
+            "memory_std": 0.5865647684093057,
+            "memory_peak": 16.7109375
+        },
+        {
+            "memory_avg": 15.44765625,
+            "memory_std": 0.24981071936130464,
+            "memory_peak": 15.89453125
+        },
+        {
+            "memory_avg": 16.20859375,
+            "memory_std": 1.542292672293984,
+            "memory_peak": 18.9609375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.678125,
+            "memory_std": 0.5863123800767386,
+            "memory_peak": 16.7109375
+        },
+        {
+            "memory_avg": 15.396875,
+            "memory_std": 0.08385254915624211,
+            "memory_peak": 15.5
+        },
+        {
+            "memory_avg": 15.35234375,
+            "memory_std": 0.014976788681781886,
+            "memory_peak": 15.36328125
+        },
+        {
+            "memory_avg": 15.38671875,
+            "memory_std": 0.1135503269824112,
+            "memory_peak": 15.58984375
+        },
+        {
+            "memory_avg": 15.49765625,
+            "memory_std": 0.1476283455775643,
+            "memory_peak": 15.60546875
+        },
+        {
+            "memory_avg": 15.4125,
+            "memory_std": 0.09853510785739644,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.35703125,
+            "memory_std": 0.019255871162290997,
+            "memory_peak": 15.37109375
+        },
+        {
+            "memory_avg": 15.7578125,
+            "memory_std": 0.5624796545799734,
+            "memory_peak": 16.75390625
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.11180339887498948,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.5765625,
+            "memory_std": 0.49142425940766804,
+            "memory_peak": 16.453125
+        },
+        {
+            "memory_avg": 15.33671875,
+            "memory_std": 0.0017469281074217107,
+            "memory_peak": 15.33984375
+        },
+        {
+            "memory_avg": 15.60078125,
+            "memory_std": 0.18073320045330285,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 16.06484375,
+            "memory_std": 1.2220620560942528,
+            "memory_peak": 18.2421875
+        },
+        {
+            "memory_avg": 15.58515625,
+            "memory_std": 0.37707353161178986,
+            "memory_peak": 16.23828125
+        },
+        {
+            "memory_avg": 15.490625,
+            "memory_std": 0.14120972185680064,
+            "memory_peak": 15.59375
+        },
+        {
+            "memory_avg": 15.4,
+            "memory_std": 0.11336877007070223,
+            "memory_peak": 15.59765625
+        },
+        {
+            "memory_avg": 15.3515625,
+            "memory_std": 0.034938562148434216,
+            "memory_peak": 15.4140625
+        },
+        {
+            "memory_avg": 15.48046875,
+            "memory_std": 0.20129509272575113,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.75,
+            "memory_std": 0.6672716574557547,
+            "memory_peak": 16.9375
+        },
+        {
+            "memory_avg": 15.52890625,
+            "memory_std": 0.11625934522249168,
+            "memory_peak": 15.64453125
+        },
+        {
+            "memory_avg": 15.3765625,
+            "memory_std": 0.09084026158592895,
+            "memory_peak": 15.5390625
+        },
+        {
+            "memory_avg": 15.37109375,
+            "memory_std": 0.07861176483397699,
+            "memory_peak": 15.51171875
+        },
+        {
+            "memory_avg": 15.35390625,
+            "memory_std": 0.040179346470699345,
+            "memory_peak": 15.42578125
+        },
+        {
+            "memory_avg": 15.39765625,
+            "memory_std": 0.10559165292753377,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.34765625,
+            "memory_std": 0.026203921611325662,
+            "memory_peak": 15.39453125
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.11180339887498948,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.74375,
+            "memory_std": 0.5532110632197715,
+            "memory_peak": 16.71875
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.11180339887498948,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.33984375,
+            "memory_std": 0.008734640537108554,
+            "memory_peak": 15.35546875
+        },
+        {
+            "memory_avg": 15.8796875,
+            "memory_std": 1.0271001374660664,
+            "memory_peak": 17.71484375
+        },
+        {
+            "memory_avg": 15.46953125,
+            "memory_std": 0.12195385069450965,
+            "memory_peak": 15.55859375
+        },
+        {
+            "memory_avg": 15.4359375,
+            "memory_std": 0.22360679774997896,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.3515625,
+            "memory_std": 0.034938562148434216,
+            "memory_peak": 15.4140625
+        },
+        {
+            "memory_avg": 15.41640625,
+            "memory_std": 0.08596412939691037,
+            "memory_peak": 15.54296875
+        },
+        {
+            "memory_avg": 15.471875,
+            "memory_std": 0.20848911818688223,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.47734375,
+            "memory_std": 0.12956743312485008,
+            "memory_peak": 15.58984375
+        },
+        {
+            "memory_avg": 15.3828125,
+            "memory_std": 0.10481568644530265,
+            "memory_peak": 15.5703125
+        },
+        {
+            "memory_avg": 15.46015625,
+            "memory_std": 0.21378289220608837,
+            "memory_peak": 15.83984375
+        },
+        {
+            "memory_avg": 15.40078125,
+            "memory_std": 0.11936773947161143,
+            "memory_peak": 15.61328125
+        },
+        {
+            "memory_avg": 15.340625,
+            "memory_std": 0.010481568644530264,
+            "memory_peak": 15.359375
+        },
+        {
+            "memory_avg": 15.36015625,
+            "memory_std": 0.0314204336752972,
+            "memory_peak": 15.39453125
+        },
+        {
+            "memory_avg": 15.40078125,
+            "memory_std": 0.05927983739091859,
+            "memory_peak": 15.44921875
+        },
+        {
+            "memory_avg": 15.496875,
+            "memory_std": 0.29499817928463556,
+            "memory_peak": 16.015625
+        },
+        {
+            "memory_avg": 15.396875,
+            "memory_std": 0.055628072246618435,
+            "memory_peak": 15.4375
+        },
+        {
+            "memory_avg": 15.68203125,
+            "memory_std": 0.4481696309059844,
+            "memory_peak": 16.46875
+        },
+        {
+            "memory_avg": 15.45390625,
+            "memory_std": 0.07897003919109924,
+            "memory_peak": 15.55859375
+        },
+        {
+            "memory_avg": 15.44921875,
+            "memory_std": 0.129614531429977,
+            "memory_peak": 15.65234375
+        },
+        {
+            "memory_avg": 15.4765625,
+            "memory_std": 0.31444705933590794,
+            "memory_peak": 16.0390625
+        },
+        {
+            "memory_avg": 15.5796875,
+            "memory_std": 0.29675419005703396,
+            "memory_peak": 16.05859375
+        },
+        {
+            "memory_avg": 15.34140625,
+            "memory_std": 0.012228496751951975,
+            "memory_peak": 15.36328125
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.46875,
+            "memory_std": 0.133471480963046,
+            "memory_peak": 15.6484375
+        },
+        {
+            "memory_avg": 15.5,
+            "memory_std": 0.20924888342556036,
+            "memory_peak": 15.83203125
+        },
+        {
+            "memory_avg": 15.45078125,
+            "memory_std": 0.1048375207724732,
+            "memory_peak": 15.52734375
+        },
+        {
+            "memory_avg": 15.48984375,
+            "memory_std": 0.04036878338363692,
+            "memory_peak": 15.54296875
+        },
+        {
+            "memory_avg": 15.46796875,
+            "memory_std": 0.1240933919347642,
+            "memory_peak": 15.6015625
+        },
+        {
+            "memory_avg": 15.66640625,
+            "memory_std": 0.1775862191567099,
+            "memory_peak": 15.90234375
+        },
+        {
+            "memory_avg": 15.4625,
+            "memory_std": 0.15310805869293342,
+            "memory_peak": 15.7109375
+        },
+        {
+            "memory_avg": 15.6984375,
+            "memory_std": 0.6335679807490817,
+            "memory_peak": 16.8125
+        },
+        {
+            "memory_avg": 15.35859375,
+            "memory_std": 0.05066091511522961,
+            "memory_peak": 15.44921875
+        },
+        {
+            "memory_avg": 15.56484375,
+            "memory_std": 0.4171062947652702,
+            "memory_peak": 16.30859375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.58046875,
+            "memory_std": 0.17542498619424202,
+            "memory_peak": 15.83203125
+        },
+        {
+            "memory_avg": 15.746875,
+            "memory_std": 0.6730231831654279,
+            "memory_peak": 16.9453125
+        },
+        {
+            "memory_avg": 15.3828125,
+            "memory_std": 0.05152697639950359,
+            "memory_peak": 15.4609375
+        },
+        {
+            "memory_avg": 15.39453125,
+            "memory_std": 0.05348853100636388,
+            "memory_peak": 15.43359375
+        },
+        {
+            "memory_avg": 15.34765625,
+            "memory_std": 0.026203921611325662,
+            "memory_peak": 15.39453125
+        },
+        {
+            "memory_avg": 16.11484375,
+            "memory_std": 1.6110229351132583,
+            "memory_peak": 18.99609375
+        },
+        {
+            "memory_avg": 15.7875,
+            "memory_std": 0.6685601365995433,
+            "memory_peak": 16.97265625
+        },
+        {
+            "memory_avg": 15.54375,
+            "memory_std": 0.32655642563130455,
+            "memory_peak": 16.08203125
+        },
+        {
+            "memory_avg": 15.3546875,
+            "memory_std": 0.01711632992203644,
+            "memory_peak": 15.3671875
+        },
+        {
+            "memory_avg": 15.4359375,
+            "memory_std": 0.22360679774997896,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.11180339887498948,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.37890625,
+            "memory_std": 0.0960810459081941,
+            "memory_peak": 15.55078125
+        },
+        {
+            "memory_avg": 15.6828125,
+            "memory_std": 0.614234678866845,
+            "memory_peak": 16.75390625
+        },
+        {
+            "memory_avg": 15.3421875,
+            "memory_std": 0.013975424859373685,
+            "memory_peak": 15.3671875
+        },
+        {
+            "memory_avg": 15.86796875,
+            "memory_std": 0.9110753473638823,
+            "memory_peak": 17.4921875
+        },
+        {
+            "memory_avg": 15.36328125,
+            "memory_std": 0.06114248375975988,
+            "memory_peak": 15.47265625
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.45390625,
+            "memory_std": 0.08862109641879155,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.5390625,
+            "memory_std": 0.1818819801066065,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.42890625,
+            "memory_std": 0.08775597324310037,
+            "memory_peak": 15.52734375
+        },
+        {
+            "memory_avg": 15.39453125,
+            "memory_std": 0.05348853100636388,
+            "memory_peak": 15.43359375
+        },
+        {
+            "memory_avg": 15.54765625,
+            "memory_std": 0.12104333628007988,
+            "memory_peak": 15.64453125
+        },
+        {
+            "memory_avg": 15.9421875,
+            "memory_std": 0.8860404894943783,
+            "memory_peak": 17.51171875
+        },
+        {
+            "memory_avg": 15.434375,
+            "memory_std": 0.1041365516363911,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.62421875,
+            "memory_std": 0.6098780976107541,
+            "memory_peak": 16.71484375
+        },
+        {
+            "memory_avg": 15.58515625,
+            "memory_std": 0.14762317751309412,
+            "memory_peak": 15.72265625
+        },
+        {
+            "memory_avg": 15.4578125,
+            "memory_std": 0.21661908532029212,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.6078125,
+            "memory_std": 0.6079309813827554,
+            "memory_peak": 16.6953125
+        },
+        {
+            "memory_avg": 15.40546875,
+            "memory_std": 0.06474248493430532,
+            "memory_peak": 15.47265625
+        },
+        {
+            "memory_avg": 15.7109375,
+            "memory_std": 0.7234107125845118,
+            "memory_peak": 17.00390625
+        },
+        {
+            "memory_avg": 15.5859375,
+            "memory_std": 0.49379697165814007,
+            "memory_peak": 16.46875
+        },
+        {
+            "memory_avg": 15.49609375,
+            "memory_std": 0.14766451696434219,
+            "memory_peak": 15.63671875
+        },
+        {
+            "memory_avg": 15.51484375,
+            "memory_std": 0.10116357953442905,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.35546875,
+            "memory_std": 0.01953125,
+            "memory_peak": 15.375
+        },
+        {
+            "memory_avg": 15.375,
+            "memory_std": 0.08734640537108554,
+            "memory_peak": 15.53125
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.11180339887498948,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.45859375,
+            "memory_std": 0.21656977125238994,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.47421875,
+            "memory_std": 0.12623293317501874,
+            "memory_peak": 15.56640625
+        },
+        {
+            "memory_avg": 15.5859375,
+            "memory_std": 0.4330127018922193,
+            "memory_peak": 16.3359375
+        },
+        {
+            "memory_avg": 15.48125,
+            "memory_std": 0.20650360237286117,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.5,
+            "memory_std": 0.19779670158081505,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.34765625,
+            "memory_std": 0.010697706201272776,
+            "memory_peak": 15.35546875
+        },
+        {
+            "memory_avg": 15.72421875,
+            "memory_std": 0.4699415194875648,
+            "memory_peak": 16.54296875
+        },
+        {
+            "memory_avg": 15.49375,
+            "memory_std": 0.21519147995883806,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.528125,
+            "memory_std": 0.17544238170087353,
+            "memory_peak": 15.65625
+        },
+        {
+            "memory_avg": 15.4125,
+            "memory_std": 0.11272763428392348,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.4859375,
+            "memory_std": 0.13693063937629152,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.4828125,
+            "memory_std": 0.22196301071349703,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.88046875,
+            "memory_std": 1.0828615383917397,
+            "memory_peak": 17.81640625
+        },
+        {
+            "memory_avg": 16.1984375,
+            "memory_std": 1.702554645753652,
+            "memory_peak": 19.2421875
+        },
+        {
+            "memory_avg": 15.571875,
+            "memory_std": 0.38103061054444826,
+            "memory_peak": 16.25
+        },
+        {
+            "memory_avg": 15.3765625,
+            "memory_std": 0.08867273540331465,
+            "memory_peak": 15.53515625
+        },
+        {
+            "memory_avg": 15.59140625,
+            "memory_std": 0.40445818792707117,
+            "memory_peak": 16.26171875
+        },
+        {
+            "memory_avg": 15.34140625,
+            "memory_std": 0.012228496751951975,
+            "memory_peak": 15.36328125
+        },
+        {
+            "memory_avg": 15.49140625,
+            "memory_std": 0.33256391097473653,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.36171875,
+            "memory_std": 0.0423967610975473,
+            "memory_peak": 15.43359375
+        },
+        {
+            "memory_avg": 15.58515625,
+            "memory_std": 0.49838300544579917,
+            "memory_peak": 16.47265625
+        },
+        {
+            "memory_avg": 15.4078125,
+            "memory_std": 0.11026424227735844,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.41875,
+            "memory_std": 0.11339568573349142,
+            "memory_peak": 15.54296875
+        },
+        {
+            "memory_avg": 15.81328125,
+            "memory_std": 1.0673730736346652,
+            "memory_peak": 17.72265625
+        },
+        {
+            "memory_avg": 15.490625,
+            "memory_std": 0.33294451607024556,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.5203125,
+            "memory_std": 0.3146580756787338,
+            "memory_peak": 16.06640625
+        },
+        {
+            "memory_avg": 15.36875,
+            "memory_std": 0.07337098051171186,
+            "memory_peak": 15.5
+        },
+        {
+            "memory_avg": 15.471875,
+            "memory_std": 0.09813942967151379,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.4796875,
+            "memory_std": 0.1208225289260813,
+            "memory_peak": 15.5703125
+        },
+        {
+            "memory_avg": 15.50859375,
+            "memory_std": 0.18884607964391265,
+            "memory_peak": 15.81640625
+        },
+        {
+            "memory_avg": 15.425,
+            "memory_std": 0.0813025671296731,
+            "memory_peak": 15.484375
+        },
+        {
+            "memory_avg": 15.4859375,
+            "memory_std": 0.13693063937629152,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.6515625,
+            "memory_std": 0.5093231736479735,
+            "memory_peak": 16.546875
+        },
+        {
+            "memory_avg": 15.396875,
+            "memory_std": 0.07039925203793006,
+            "memory_peak": 15.5078125
+        },
+        {
+            "memory_avg": 15.4296875,
+            "memory_std": 0.10881553341550093,
+            "memory_peak": 15.5546875
+        },
+        {
+            "memory_avg": 15.528125,
+            "memory_std": 0.3142213334366697,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.62109375,
+            "memory_std": 0.2946436498061578,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.53125,
+            "memory_std": 0.3252290358827914,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.34140625,
+            "memory_std": 0.012228496751951975,
+            "memory_peak": 15.36328125
+        },
+        {
+            "memory_avg": 15.81171875,
+            "memory_std": 1.0638792174198217,
+            "memory_peak": 17.71484375
+        },
+        {
+            "memory_avg": 15.52265625,
+            "memory_std": 0.18622204461970593,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.5203125,
+            "memory_std": 0.32079327485985815,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.590625,
+            "memory_std": 0.2631055840149421,
+            "memory_peak": 16.03125
+        },
+        {
+            "memory_avg": 15.7109375,
+            "memory_std": 0.7224767513560557,
+            "memory_peak": 16.9921875
+        },
+        {
+            "memory_avg": 15.46953125,
+            "memory_std": 0.12195385069450965,
+            "memory_peak": 15.55859375
+        },
+        {
+            "memory_avg": 15.4015625,
+            "memory_std": 0.05990715472712754,
+            "memory_peak": 15.4453125
+        },
+        {
+            "memory_avg": 15.35546875,
+            "memory_std": 0.04367320268554277,
+            "memory_peak": 15.43359375
+        },
+        {
+            "memory_avg": 15.59765625,
+            "memory_std": 0.4967315658735171,
+            "memory_peak": 16.484375
+        },
+        {
+            "memory_avg": 15.44375,
+            "memory_std": 0.08330484539103954,
+            "memory_peak": 15.50390625
+        },
+        {
+            "memory_avg": 15.740625,
+            "memory_std": 0.7227755391409346,
+            "memory_peak": 17.00390625
+        },
+        {
+            "memory_avg": 15.74609375,
+            "memory_std": 0.7073279332641835,
+            "memory_peak": 17.0
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.11180339887498948,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.64453125,
+            "memory_std": 0.40056684384346986,
+            "memory_peak": 16.3359375
+        },
+        {
+            "memory_avg": 15.42265625,
+            "memory_std": 0.07916302588941854,
+            "memory_peak": 15.48046875
+        },
+        {
+            "memory_avg": 15.52734375,
+            "memory_std": 0.19488233880103784,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.9671875,
+            "memory_std": 1.261445403826871,
+            "memory_peak": 18.22265625
+        },
+        {
+            "memory_avg": 15.72265625,
+            "memory_std": 0.45178445291370006,
+            "memory_peak": 16.5
+        },
+        {
+            "memory_avg": 15.58046875,
+            "memory_std": 0.2969212546203328,
+            "memory_peak": 16.05859375
+        },
+        {
+            "memory_avg": 15.47109375,
+            "memory_std": 0.21769415947680476,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.51015625,
+            "memory_std": 0.11225287527637098,
+            "memory_peak": 15.62890625
+        },
+        {
+            "memory_avg": 15.50390625,
+            "memory_std": 0.19346785151624676,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.446875,
+            "memory_std": 0.10443649947156884,
+            "memory_peak": 15.5625
+        },
+        {
+            "memory_avg": 15.34453125,
+            "memory_std": 0.01711632992203644,
+            "memory_peak": 15.375
+        },
+        {
+            "memory_avg": 15.41875,
+            "memory_std": 0.08144320478387838,
+            "memory_peak": 15.5234375
+        },
+        {
+            "memory_avg": 15.46484375,
+            "memory_std": 0.11767476821400054,
+            "memory_peak": 15.55078125
+        },
+        {
+            "memory_avg": 15.396875,
+            "memory_std": 0.055628072246618435,
+            "memory_peak": 15.4375
+        },
+        {
+            "memory_avg": 15.4546875,
+            "memory_std": 0.0894863816454772,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.46171875,
+            "memory_std": 0.1220789059475213,
+            "memory_peak": 15.61328125
+        },
+        {
+            "memory_avg": 16.0890625,
+            "memory_std": 1.3344558441186218,
+            "memory_peak": 18.46875
+        },
+        {
+            "memory_avg": 15.503125,
+            "memory_std": 0.3050678715466445,
+            "memory_peak": 16.0390625
+        },
+        {
+            "memory_avg": 15.5359375,
+            "memory_std": 0.4472135954999579,
+            "memory_peak": 16.3359375
+        },
+        {
+            "memory_avg": 15.4171875,
+            "memory_std": 0.10210193282940339,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.5765625,
+            "memory_std": 0.30047163447653424,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.4703125,
+            "memory_std": 0.08880170148989264,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.3765625,
+            "memory_std": 0.055696605070742415,
+            "memory_peak": 15.44140625
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.06060355210170234,
+            "memory_peak": 15.484375
+        },
+        {
+            "memory_avg": 16.12578125,
+            "memory_std": 1.3303932836054533,
+            "memory_peak": 18.49609375
+        },
+        {
+            "memory_avg": 15.565625,
+            "memory_std": 0.2593967658412615,
+            "memory_peak": 15.984375
+        },
+        {
+            "memory_avg": 15.95625,
+            "memory_std": 1.2868867765594585,
+            "memory_peak": 18.25390625
+        },
+        {
+            "memory_avg": 15.396875,
+            "memory_std": 0.10656977385365303,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.384375,
+            "memory_std": 0.0729538595620547,
+            "memory_peak": 15.5
+        },
+        {
+            "memory_avg": 15.4015625,
+            "memory_std": 0.10847846848568614,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.4859375,
+            "memory_std": 0.33541019662496846,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.55234375,
+            "memory_std": 0.12155280930204267,
+            "memory_peak": 15.61328125
+        },
+        {
+            "memory_avg": 15.41796875,
+            "memory_std": 0.07488394340890943,
+            "memory_peak": 15.47265625
+        },
+        {
+            "memory_avg": 15.95078125,
+            "memory_std": 1.2702540009977459,
+            "memory_peak": 18.21875
+        },
+        {
+            "memory_avg": 15.48671875,
+            "memory_std": 0.30262220704256404,
+            "memory_peak": 16.02734375
+        },
+        {
+            "memory_avg": 15.44375,
+            "memory_std": 0.09841889705170953,
+            "memory_peak": 15.515625
+        },
+        {
+            "memory_avg": 15.39609375,
+            "memory_std": 0.10837996041848558,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.4546875,
+            "memory_std": 0.10981357382443097,
+            "memory_peak": 15.5625
+        },
+        {
+            "memory_avg": 15.5140625,
+            "memory_std": 0.17972146418138263,
+            "memory_peak": 15.7578125
+        },
+        {
+            "memory_avg": 15.34921875,
+            "memory_std": 0.029697777826169083,
+            "memory_peak": 15.40234375
+        },
+        {
+            "memory_avg": 15.65703125,
+            "memory_std": 0.596751766564991,
+            "memory_peak": 16.72265625
+        },
+        {
+            "memory_avg": 15.47890625,
+            "memory_std": 0.14679914098171265,
+            "memory_peak": 15.68359375
+        },
+        {
+            "memory_avg": 15.44375,
+            "memory_std": 0.10742542607766911,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.36796875,
+            "memory_std": 0.07162405240429014,
+            "memory_peak": 15.49609375
+        },
+        {
+            "memory_avg": 15.8421875,
+            "memory_std": 0.7772927118923331,
+            "memory_peak": 17.22265625
+        },
+        {
+            "memory_avg": 15.515625,
+            "memory_std": 0.18831204364365547,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.38359375,
+            "memory_std": 0.10656261455272435,
+            "memory_peak": 15.57421875
+        },
+        {
+            "memory_avg": 15.44453125,
+            "memory_std": 0.2428230069316178,
+            "memory_peak": 15.87890625
+        },
+        {
+            "memory_avg": 15.4359375,
+            "memory_std": 0.22360679774997896,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.840625,
+            "memory_std": 1.0495876410803406,
+            "memory_peak": 17.71484375
+        },
+        {
+            "memory_avg": 15.4515625,
+            "memory_std": 0.21751885694118567,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.36171875,
+            "memory_std": 0.023534953642800106,
+            "memory_peak": 15.37890625
+        },
+        {
+            "memory_avg": 15.49921875,
+            "memory_std": 0.1984205824481485,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.4421875,
+            "memory_std": 0.22052848455471688,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.475,
+            "memory_std": 0.21022376355140907,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.72734375,
+            "memory_std": 0.8363134376629524,
+            "memory_peak": 17.22265625
+        },
+        {
+            "memory_avg": 15.346875,
+            "memory_std": 0.014976788681781886,
+            "memory_peak": 15.36328125
+        },
+        {
+            "memory_avg": 15.49921875,
+            "memory_std": 0.2803180087599729,
+            "memory_peak": 15.99609375
+        },
+        {
+            "memory_avg": 16.07421875,
+            "memory_std": 1.5006203957915623,
+            "memory_peak": 18.75
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.50234375,
+            "memory_std": 0.3264536114813539,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.42421875,
+            "memory_std": 0.09063005104458316,
+            "memory_peak": 15.55078125
+        },
+        {
+            "memory_avg": 15.7234375,
+            "memory_std": 0.7003057629500801,
+            "memory_peak": 16.96875
+        },
+        {
+            "memory_avg": 15.51015625,
+            "memory_std": 0.29680560455377397,
+            "memory_peak": 16.03515625
+        },
+        {
+            "memory_avg": 15.36875,
+            "memory_std": 0.02995357736356377,
+            "memory_peak": 15.390625
+        },
+        {
+            "memory_avg": 15.5109375,
+            "memory_std": 0.32241828770417746,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.7515625,
+            "memory_std": 0.551954645477382,
+            "memory_peak": 16.72265625
+        },
+        {
+            "memory_avg": 15.4421875,
+            "memory_std": 0.09003037681804958,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.53984375,
+            "memory_std": 0.35019700091966094,
+            "memory_peak": 16.16015625
+        },
+        {
+            "memory_avg": 15.36953125,
+            "memory_std": 0.03701674293900667,
+            "memory_peak": 15.42578125
+        },
+        {
+            "memory_avg": 15.6296875,
+            "memory_std": 0.27821441241845063,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.81796875,
+            "memory_std": 0.7874538831982877,
+            "memory_peak": 17.203125
+        },
+        {
+            "memory_avg": 15.42734375,
+            "memory_std": 0.08344210836992765,
+            "memory_peak": 15.48828125
+        },
+        {
+            "memory_avg": 15.41015625,
+            "memory_std": 0.07629697259618988,
+            "memory_peak": 15.48828125
+        },
+        {
+            "memory_avg": 15.4328125,
+            "memory_std": 0.09968211192335363,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.3953125,
+            "memory_std": 0.0813025671296731,
+            "memory_peak": 15.484375
+        },
+        {
+            "memory_avg": 15.4515625,
+            "memory_std": 0.11460700513057655,
+            "memory_peak": 15.6015625
+        },
+        {
+            "memory_avg": 15.3875,
+            "memory_std": 0.11094712766321961,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.37265625,
+            "memory_std": 0.05549075267837426,
+            "memory_peak": 15.4609375
+        },
+        {
+            "memory_avg": 15.49140625,
+            "memory_std": 0.30201401189167737,
+            "memory_peak": 16.03125
+        },
+        {
+            "memory_avg": 15.90625,
+            "memory_std": 1.1568568930916867,
+            "memory_peak": 17.96875
+        },
+        {
+            "memory_avg": 15.390625,
+            "memory_std": 0.07488394340890943,
+            "memory_peak": 15.47265625
+        },
+        {
+            "memory_avg": 15.371875,
+            "memory_std": 0.08035869294139869,
+            "memory_peak": 15.515625
+        },
+        {
+            "memory_avg": 15.35234375,
+            "memory_std": 0.03668549025585593,
+            "memory_peak": 15.41796875
+        },
+        {
+            "memory_avg": 15.86171875,
+            "memory_std": 1.1756826162948113,
+            "memory_peak": 17.96484375
+        },
+        {
+            "memory_avg": 15.8,
+            "memory_std": 0.8210069605059501,
+            "memory_peak": 17.2578125
+        },
+        {
+            "memory_avg": 15.6265625,
+            "memory_std": 0.2761251839066839,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.5125,
+            "memory_std": 0.39480575227730663,
+            "memory_peak": 16.21875
+        },
+        {
+            "memory_avg": 15.41796875,
+            "memory_std": 0.07488394340890943,
+            "memory_peak": 15.47265625
+        },
+        {
+            "memory_avg": 15.66171875,
+            "memory_std": 0.721920021932074,
+            "memory_peak": 16.953125
+        },
+        {
+            "memory_avg": 15.61171875,
+            "memory_std": 0.28138017820646144,
+            "memory_peak": 16.08984375
+        },
+        {
+            "memory_avg": 15.5515625,
+            "memory_std": 0.3950086066358634,
+            "memory_peak": 16.24609375
+        },
+        {
+            "memory_avg": 15.41171875,
+            "memory_std": 0.08233759761171533,
+            "memory_peak": 15.53515625
+        },
+        {
+            "memory_avg": 15.49609375,
+            "memory_std": 0.16357348997039145,
+            "memory_peak": 15.72265625
+        },
+        {
+            "memory_avg": 15.625,
+            "memory_std": 0.2852899943204721,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.48203125,
+            "memory_std": 0.1338311122331519,
+            "memory_peak": 15.59765625
+        },
+        {
+            "memory_avg": 15.5328125,
+            "memory_std": 0.18029364475722306,
+            "memory_peak": 15.6875
+        },
+        {
+            "memory_avg": 15.97421875,
+            "memory_std": 1.1393119047086875,
+            "memory_peak": 18.0078125
+        },
+        {
+            "memory_avg": 15.3515625,
+            "memory_std": 0.030633568635465083,
+            "memory_peak": 15.40625
+        },
+        {
+            "memory_avg": 15.4015625,
+            "memory_std": 0.05990715472712754,
+            "memory_peak": 15.4453125
+        },
+        {
+            "memory_avg": 15.57109375,
+            "memory_std": 0.2664194232446862,
+            "memory_peak": 16.03125
+        },
+        {
+            "memory_avg": 15.40703125,
+            "memory_std": 0.1099454987496646,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.6625,
+            "memory_std": 0.730215948902275,
+            "memory_peak": 16.96875
+        },
+        {
+            "memory_avg": 15.853125,
+            "memory_std": 0.9086234746320082,
+            "memory_peak": 17.46875
+        },
+        {
+            "memory_avg": 15.3640625,
+            "memory_std": 0.025674494883054663,
+            "memory_peak": 15.3828125
+        },
+        {
+            "memory_avg": 15.78046875,
+            "memory_std": 0.9424689282220727,
+            "memory_peak": 17.46484375
+        },
+        {
+            "memory_avg": 15.3390625,
+            "memory_std": 0.006987712429686843,
+            "memory_peak": 15.3515625
+        },
+        {
+            "memory_avg": 15.62421875,
+            "memory_std": 0.28471980727083906,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.41875,
+            "memory_std": 0.11339568573349142,
+            "memory_peak": 15.54296875
+        },
+        {
+            "memory_avg": 15.40859375,
+            "memory_std": 0.11447378759731418,
+            "memory_peak": 15.59765625
+        },
+        {
+            "memory_avg": 15.5421875,
+            "memory_std": 0.30666426063367735,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.7171875,
+            "memory_std": 0.8372990153543005,
+            "memory_peak": 17.21484375
+        },
+        {
+            "memory_avg": 15.61328125,
+            "memory_std": 0.487937378914741,
+            "memory_peak": 16.46875
+        },
+        {
+            "memory_avg": 15.4421875,
+            "memory_std": 0.16667836466108538,
+            "memory_peak": 15.734375
+        },
+        {
+            "memory_avg": 15.5125,
+            "memory_std": 0.3213279445507638,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.34765625,
+            "memory_std": 0.010697706201272776,
+            "memory_peak": 15.35546875
+        },
+        {
+            "memory_avg": 15.34140625,
+            "memory_std": 0.012228496751951975,
+            "memory_peak": 15.36328125
+        },
+        {
+            "memory_avg": 15.5515625,
+            "memory_std": 0.40243286331095807,
+            "memory_peak": 16.26171875
+        },
+        {
+            "memory_avg": 15.84921875,
+            "memory_std": 0.90110253512494,
+            "memory_peak": 17.45703125
+        },
+        {
+            "memory_avg": 15.503125,
+            "memory_std": 0.2988651427235305,
+            "memory_peak": 16.03125
+        },
+        {
+            "memory_avg": 15.671875,
+            "memory_std": 0.7489973359614464,
+            "memory_peak": 17.01171875
+        },
+        {
+            "memory_avg": 16.015625,
+            "memory_std": 1.1005369783087708,
+            "memory_peak": 17.96875
+        },
+        {
+            "memory_avg": 15.36875,
+            "memory_std": 0.07337098051171186,
+            "memory_peak": 15.5
+        },
+        {
+            "memory_avg": 15.409375,
+            "memory_std": 0.10014028246352713,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.615625,
+            "memory_std": 0.6123824026139632,
+            "memory_peak": 16.7109375
+        },
+        {
+            "memory_avg": 15.4359375,
+            "memory_std": 0.22360679774997896,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.74375,
+            "memory_std": 0.711015835313396,
+            "memory_peak": 17.00390625
+        },
+        {
+            "memory_avg": 15.534375,
+            "memory_std": 0.2255905877496887,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.925,
+            "memory_std": 1.1590390770078678,
+            "memory_peak": 17.99609375
+        },
+        {
+            "memory_avg": 15.5765625,
+            "memory_std": 0.30645520867147125,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.36875,
+            "memory_std": 0.07337098051171186,
+            "memory_peak": 15.5
+        },
+        {
+            "memory_avg": 15.33671875,
+            "memory_std": 0.0017469281074217107,
+            "memory_peak": 15.33984375
+        },
+        {
+            "memory_avg": 15.4359375,
+            "memory_std": 0.22360679774997896,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.5671875,
+            "memory_std": 0.39393519330397164,
+            "memory_peak": 16.26953125
+        },
+        {
+            "memory_avg": 15.50859375,
+            "memory_std": 0.32645127441980143,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.51015625,
+            "memory_std": 0.3132510506017897,
+            "memory_peak": 16.05859375
+        },
+        {
+            "memory_avg": 15.43671875,
+            "memory_std": 0.09200027333094588,
+            "memory_peak": 15.50390625
+        },
+        {
+            "memory_avg": 15.4828125,
+            "memory_std": 0.20306113779744697,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.840625,
+            "memory_std": 1.0682340391516945,
+            "memory_peak": 17.75
+        },
+        {
+            "memory_avg": 15.4265625,
+            "memory_std": 0.1240933919347642,
+            "memory_peak": 15.5625
+        },
+        {
+            "memory_avg": 15.4984375,
+            "memory_std": 0.3177248757646897,
+            "memory_peak": 16.06640625
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.3671875,
+            "memory_std": 0.03268203228648733,
+            "memory_peak": 15.4140625
+        },
+        {
+            "memory_avg": 15.446875,
+            "memory_std": 0.13971602931538046,
+            "memory_peak": 15.64453125
+        },
+        {
+            "memory_avg": 15.4953125,
+            "memory_std": 0.1467419610234237,
+            "memory_peak": 15.6328125
+        },
+        {
+            "memory_avg": 15.74140625,
+            "memory_std": 0.543210377890958,
+            "memory_peak": 16.70703125
+        },
+        {
+            "memory_avg": 15.52109375,
+            "memory_std": 0.2913313618585266,
+            "memory_peak": 16.0390625
+        },
+        {
+            "memory_avg": 15.4828125,
+            "memory_std": 0.32842248419528164,
+            "memory_peak": 16.0703125
+        },
+        {
+            "memory_avg": 15.35078125,
+            "memory_std": 0.033191634041012504,
+            "memory_peak": 15.41015625
+        },
+        {
+            "memory_avg": 15.8125,
+            "memory_std": 1.0656261455272436,
+            "memory_peak": 17.71875
+        },
+        {
+            "memory_avg": 15.68359375,
+            "memory_std": 0.7198742905123262,
+            "memory_peak": 16.96875
+        },
+        {
+            "memory_avg": 15.85078125,
+            "memory_std": 0.9302716127225962,
+            "memory_peak": 17.51171875
+        },
+        {
+            "memory_avg": 15.39609375,
+            "memory_std": 0.05817559122228583,
+            "memory_peak": 15.48046875
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.06984436171432344,
+            "memory_peak": 15.48046875
+        },
+        {
+            "memory_avg": 15.48984375,
+            "memory_std": 0.3267689613497012,
+            "memory_peak": 16.07421875
+        },
+        {
+            "memory_avg": 15.59765625,
+            "memory_std": 0.487616735322329,
+            "memory_peak": 16.46875
+        },
+        {
+            "memory_avg": 15.50390625,
+            "memory_std": 0.308618472110995,
+            "memory_peak": 16.046875
+        },
+        {
+            "memory_avg": 15.51875,
+            "memory_std": 0.40878117713668033,
+            "memory_peak": 16.25
+        },
+        {
+            "memory_avg": 15.82265625,
+            "memory_std": 0.7783716507927383,
+            "memory_peak": 17.20703125
+        },
+        {
+            "memory_avg": 15.79921875,
+            "memory_std": 0.9326191303971909,
+            "memory_peak": 17.4609375
+        },
+        {
+            "memory_avg": 15.44609375,
+            "memory_std": 0.10055843829196409,
+            "memory_peak": 15.51953125
+        },
+        {
+            "memory_avg": 15.375,
+            "memory_std": 0.05348853100636388,
+            "memory_peak": 15.43359375
+        },
+        {
+            "memory_avg": 15.71796875,
+            "memory_std": 0.5861744312635851,
+            "memory_peak": 16.7578125
+        },
+        {
+            "memory_avg": 15.64609375,
+            "memory_std": 0.48691684371698674,
+            "memory_peak": 16.51171875
+        },
+        {
+            "memory_avg": 15.70703125,
+            "memory_std": 0.2550903878177915,
+            "memory_peak": 16.140625
+        },
+        {
+            "memory_avg": 15.7828125,
+            "memory_std": 0.9582923769837451,
+            "memory_peak": 17.49609375
+        },
+        {
+            "memory_avg": 15.3953125,
+            "memory_std": 0.13276653616405001,
+            "memory_peak": 15.6328125
+        },
+        {
+            "memory_avg": 15.45625,
+            "memory_std": 0.08849186712277575,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.815625,
+            "memory_std": 0.9227617557162303,
+            "memory_peak": 17.46484375
+        },
+        {
+            "memory_avg": 15.47734375,
+            "memory_std": 0.10515723671528152,
+            "memory_peak": 15.6328125
+        },
+        {
+            "memory_avg": 15.3625,
+            "memory_std": 0.036372201084327434,
+            "memory_peak": 15.40234375
+        },
+        {
+            "memory_avg": 15.5328125,
+            "memory_std": 0.285899075287067,
+            "memory_peak": 16.0390625
+        },
+        {
+            "memory_avg": 15.440625,
+            "memory_std": 0.09266132205763497,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.75,
+            "memory_std": 0.682219600996904,
+            "memory_peak": 16.96484375
+        },
+        {
+            "memory_avg": 15.71640625,
+            "memory_std": 0.3626148962581119,
+            "memory_peak": 16.359375
+        },
+        {
+            "memory_avg": 15.38046875,
+            "memory_std": 0.04065128356483655,
+            "memory_peak": 15.41015625
+        },
+        {
+            "memory_avg": 15.56328125,
+            "memory_std": 0.5083560792597178,
+            "memory_peak": 16.47265625
+        },
+        {
+            "memory_avg": 15.6359375,
+            "memory_std": 0.27386127875258304,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.7359375,
+            "memory_std": 0.6869982188727821,
+            "memory_peak": 16.9609375
+        },
+        {
+            "memory_avg": 15.7875,
+            "memory_std": 0.45182329190666454,
+            "memory_peak": 16.58203125
+        },
+        {
+            "memory_avg": 15.984375,
+            "memory_std": 1.2533798301134242,
+            "memory_peak": 18.21875
+        },
+        {
+            "memory_avg": 15.3828125,
+            "memory_std": 0.10481568644530265,
+            "memory_peak": 15.5703125
+        },
+        {
+            "memory_avg": 15.3953125,
+            "memory_std": 0.0813025671296731,
+            "memory_peak": 15.484375
+        },
+        {
+            "memory_avg": 15.521875,
+            "memory_std": 0.3247783198294646,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.37421875,
+            "memory_std": 0.03552325795121768,
+            "memory_peak": 15.41015625
+        },
+        {
+            "memory_avg": 16.0625,
+            "memory_std": 1.2128638911103649,
+            "memory_peak": 18.22265625
+        },
+        {
+            "memory_avg": 15.425,
+            "memory_std": 0.09433411780077237,
+            "memory_peak": 15.5625
+        },
+        {
+            "memory_avg": 15.56171875,
+            "memory_std": 0.2818651042816736,
+            "memory_peak": 16.0546875
+        },
+        {
+            "memory_avg": 15.79453125,
+            "memory_std": 0.7983604797122702,
+            "memory_peak": 17.21875
+        },
+        {
+            "memory_avg": 15.4859375,
+            "memory_std": 0.13695849515284275,
+            "memory_peak": 15.58984375
+        },
+        {
+            "memory_avg": 15.47421875,
+            "memory_std": 0.12623293317501874,
+            "memory_peak": 15.56640625
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.40859375,
+            "memory_std": 0.10333489529649459,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.4859375,
+            "memory_std": 0.13693063937629152,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.64609375,
+            "memory_std": 0.26126067655366975,
+            "memory_peak": 16.015625
+        },
+        {
+            "memory_avg": 15.80390625,
+            "memory_std": 0.953238658694499,
+            "memory_peak": 17.50390625
+        },
+        {
+            "memory_avg": 15.39453125,
+            "memory_std": 0.05348853100636388,
+            "memory_peak": 15.43359375
+        },
+        {
+            "memory_avg": 15.4859375,
+            "memory_std": 0.33541019662496846,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.69921875,
+            "memory_std": 0.44009068334868495,
+            "memory_peak": 16.46484375
+        },
+        {
+            "memory_avg": 15.7625,
+            "memory_std": 0.5454319689153211,
+            "memory_peak": 16.71875
+        },
+        {
+            "memory_avg": 15.5,
+            "memory_std": 0.07493486755176124,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.47109375,
+            "memory_std": 0.2956724203840819,
+            "memory_peak": 16.0
+        },
+        {
+            "memory_avg": 15.471875,
+            "memory_std": 0.1240933919347642,
+            "memory_peak": 15.5625
+        },
+        {
+            "memory_avg": 16.00390625,
+            "memory_std": 1.2584916644663364,
+            "memory_peak": 18.25
+        },
+        {
+            "memory_avg": 15.4109375,
+            "memory_std": 0.06846531968814576,
+            "memory_peak": 15.4609375
+        },
+        {
+            "memory_avg": 15.34765625,
+            "memory_std": 0.026203921611325662,
+            "memory_peak": 15.39453125
+        },
+        {
+            "memory_avg": 15.8546875,
+            "memory_std": 1.0419895332967601,
+            "memory_peak": 17.7109375
+        },
+        {
+            "memory_avg": 15.77890625,
+            "memory_std": 0.8020312271697835,
+            "memory_peak": 17.2109375
+        },
+        {
+            "memory_avg": 15.56953125,
+            "memory_std": 0.29543751487465586,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.4234375,
+            "memory_std": 0.09478594305064438,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.621875,
+            "memory_std": 0.27734925170599434,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.49765625,
+            "memory_std": 0.36161411823629414,
+            "memory_peak": 16.14453125
+        },
+        {
+            "memory_avg": 15.45546875,
+            "memory_std": 0.21685141487390047,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.3921875,
+            "memory_std": 0.12577882373436317,
+            "memory_peak": 15.6171875
+        },
+        {
+            "memory_avg": 15.7171875,
+            "memory_std": 0.8525009164217948,
+            "memory_peak": 17.2421875
+        },
+        {
+            "memory_avg": 15.3953125,
+            "memory_std": 0.1072050368307152,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.475,
+            "memory_std": 0.3109532031210645,
+            "memory_peak": 16.03125
+        },
+        {
+            "memory_avg": 15.809375,
+            "memory_std": 0.6484751495094088,
+            "memory_peak": 16.953125
+        },
+        {
+            "memory_avg": 15.47109375,
+            "memory_std": 0.20918689077816874,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.69609375,
+            "memory_std": 0.7353944884964378,
+            "memory_peak": 17.0078125
+        },
+        {
+            "memory_avg": 15.5703125,
+            "memory_std": 0.5045417504326947,
+            "memory_peak": 16.47265625
+        },
+        {
+            "memory_avg": 15.3375,
+            "memory_std": 0.002139541240254555,
+            "memory_peak": 15.33984375
+        },
+        {
+            "memory_avg": 15.63359375,
+            "memory_std": 0.6270133586719864,
+            "memory_peak": 16.75390625
+        },
+        {
+            "memory_avg": 15.93828125,
+            "memory_std": 1.150668803908867,
+            "memory_peak": 17.9921875
+        },
+        {
+            "memory_avg": 15.7671875,
+            "memory_std": 0.953423525227394,
+            "memory_peak": 17.47265625
+        },
+        {
+            "memory_avg": 15.5890625,
+            "memory_std": 0.4942942263738901,
+            "memory_peak": 16.47265625
+        },
+        {
+            "memory_avg": 15.51171875,
+            "memory_std": 0.2831559766787667,
+            "memory_peak": 16.015625
+        },
+        {
+            "memory_avg": 16.05703125,
+            "memory_std": 1.4934539373833857,
+            "memory_peak": 18.7265625
+        },
+        {
+            "memory_avg": 15.71796875,
+            "memory_std": 0.5909899356198092,
+            "memory_peak": 16.765625
+        },
+        {
+            "memory_avg": 16.009375,
+            "memory_std": 1.239203865674702,
+            "memory_peak": 18.22265625
+        },
+        {
+            "memory_avg": 15.46328125,
+            "memory_std": 0.1303657902128181,
+            "memory_peak": 15.64453125
+        },
+        {
+            "memory_avg": 15.49453125,
+            "memory_std": 0.1622998692500821,
+            "memory_peak": 15.66015625
+        },
+        {
+            "memory_avg": 15.3765625,
+            "memory_std": 0.09084026158592895,
+            "memory_peak": 15.5390625
+        },
+        {
+            "memory_avg": 15.8328125,
+            "memory_std": 1.071788444027085,
+            "memory_peak": 17.75
+        },
+        {
+            "memory_avg": 15.4421875,
+            "memory_std": 0.23758222260935266,
+            "memory_peak": 15.8671875
+        },
+        {
+            "memory_avg": 15.70703125,
+            "memory_std": 0.727527920426426,
+            "memory_peak": 17.0
+        },
+        {
+            "memory_avg": 15.415625,
+            "memory_std": 0.07274440216865487,
+            "memory_peak": 15.46875
+        },
+        {
+            "memory_avg": 15.43359375,
+            "memory_std": 0.02139541240254555,
+            "memory_peak": 15.44921875
+        },
+        {
+            "memory_avg": 15.45234375,
+            "memory_std": 0.2147620583325154,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.66796875,
+            "memory_std": 0.6257746663979525,
+            "memory_peak": 16.78515625
+        },
+        {
+            "memory_avg": 16.1359375,
+            "memory_std": 1.3259126794754434,
+            "memory_peak": 18.5
+        },
+        {
+            "memory_avg": 15.6875,
+            "memory_std": 0.4779213465378613,
+            "memory_peak": 16.53515625
+        },
+        {
+            "memory_avg": 15.53203125,
+            "memory_std": 0.11562763932798464,
+            "memory_peak": 15.609375
+        },
+        {
+            "memory_avg": 15.39609375,
+            "memory_std": 0.13451346427147173,
+            "memory_peak": 15.63671875
+        },
+        {
+            "memory_avg": 15.49765625,
+            "memory_std": 0.11493937345536777,
+            "memory_peak": 15.62890625
+        },
+        {
+            "memory_avg": 15.51171875,
+            "memory_std": 0.12364993586987823,
+            "memory_peak": 15.67578125
+        },
+        {
+            "memory_avg": 15.3640625,
+            "memory_std": 0.038511742324581995,
+            "memory_peak": 15.40625
+        },
+        {
+            "memory_avg": 15.5234375,
+            "memory_std": 0.31792171795899693,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.53671875,
+            "memory_std": 0.2129640784979212,
+            "memory_peak": 15.84765625
+        },
+        {
+            "memory_avg": 15.565625,
+            "memory_std": 0.014976788681781886,
+            "memory_peak": 15.58203125
+        },
+        {
+            "memory_avg": 15.66171875,
+            "memory_std": 0.7284690207948533,
+            "memory_peak": 16.96484375
+        },
+        {
+            "memory_avg": 15.47890625,
+            "memory_std": 0.14796388257569817,
+            "memory_peak": 15.6640625
+        },
+        {
+            "memory_avg": 15.51484375,
+            "memory_std": 0.2996936505495028,
+            "memory_peak": 16.02734375
+        },
+        {
+            "memory_avg": 15.61640625,
+            "memory_std": 0.26048273901396757,
+            "memory_peak": 16.04296875
+        },
+        {
+            "memory_avg": 15.44921875,
+            "memory_std": 0.0855816496101822,
+            "memory_peak": 15.54296875
+        },
+        {
+            "memory_avg": 15.9390625,
+            "memory_std": 1.273577086866518,
+            "memory_peak": 18.21484375
+        },
+        {
+            "memory_avg": 15.92265625,
+            "memory_std": 1.0034326764813217,
+            "memory_peak": 17.7109375
+        },
+        {
+            "memory_avg": 15.64140625,
+            "memory_std": 0.3118450167200448,
+            "memory_peak": 16.19921875
+        },
+        {
+            "memory_avg": 15.68828125,
+            "memory_std": 0.6118327340324263,
+            "memory_peak": 16.78125
+        },
+        {
+            "memory_avg": 15.4390625,
+            "memory_std": 0.1376807671838872,
+            "memory_peak": 15.671875
+        },
+        {
+            "memory_avg": 16.0015625,
+            "memory_std": 1.0197953740728916,
+            "memory_peak": 17.8125
+        },
+        {
+            "memory_avg": 15.834375,
+            "memory_std": 1.0714011343213148,
+            "memory_peak": 17.75
+        },
+        {
+            "memory_avg": 15.41875,
+            "memory_std": 0.1545167539333316,
+            "memory_peak": 15.69140625
+        },
+        {
+            "memory_avg": 15.97265625,
+            "memory_std": 1.260345372897594,
+            "memory_peak": 18.21484375
+        },
+        {
+            "memory_avg": 15.3921875,
+            "memory_std": 0.05331709296598747,
+            "memory_peak": 15.453125
+        },
+        {
+            "memory_avg": 15.603125,
+            "memory_std": 0.19097927504337675,
+            "memory_peak": 15.91796875
+        },
+        {
+            "memory_avg": 15.68828125,
+            "memory_std": 0.26169542806536095,
+            "memory_peak": 16.0546875
+        },
+        {
+            "memory_avg": 15.7875,
+            "memory_std": 0.5336972584451554,
+            "memory_peak": 16.71484375
+        },
+        {
+            "memory_avg": 15.46640625,
+            "memory_std": 0.11962312645476417,
+            "memory_peak": 15.5625
+        },
+        {
+            "memory_avg": 15.57109375,
+            "memory_std": 0.5258253603339349,
+            "memory_peak": 16.51171875
+        },
+        {
+            "memory_avg": 15.83828125,
+            "memory_std": 1.05688284250121,
+            "memory_peak": 17.7265625
+        },
+        {
+            "memory_avg": 15.44453125,
+            "memory_std": 0.21959240696188131,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.6,
+            "memory_std": 0.31446646904916586,
+            "memory_peak": 16.0859375
+        },
+        {
+            "memory_avg": 15.43671875,
+            "memory_std": 0.09637439962118441,
+            "memory_peak": 15.55078125
+        },
+        {
+            "memory_avg": 16.02734375,
+            "memory_std": 1.370876718934137,
+            "memory_peak": 18.47265625
+        },
+        {
+            "memory_avg": 15.340625,
+            "memory_std": 0.010481568644530264,
+            "memory_peak": 15.359375
+        },
+        {
+            "memory_avg": 15.6234375,
+            "memory_std": 0.34427782629685505,
+            "memory_peak": 16.22265625
+        },
+        {
+            "memory_avg": 15.39453125,
+            "memory_std": 0.1310196080566283,
+            "memory_peak": 15.62890625
+        },
+        {
+            "memory_avg": 15.465625,
+            "memory_std": 0.21031084578658502,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.4203125,
+            "memory_std": 0.11553522697374598,
+            "memory_peak": 15.546875
+        },
+        {
+            "memory_avg": 15.50859375,
+            "memory_std": 0.1903550534835331,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.71640625,
+            "memory_std": 0.6477288107724463,
+            "memory_peak": 16.859375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.509375,
+            "memory_std": 0.20433458961154558,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.65625,
+            "memory_std": 0.6090744451111867,
+            "memory_peak": 16.734375
+        },
+        {
+            "memory_avg": 15.42890625,
+            "memory_std": 0.08775597324310037,
+            "memory_peak": 15.52734375
+        },
+        {
+            "memory_avg": 15.47890625,
+            "memory_std": 0.16182910636831913,
+            "memory_peak": 15.73046875
+        },
+        {
+            "memory_avg": 15.3609375,
+            "memory_std": 0.05590169943749474,
+            "memory_peak": 15.4609375
+        },
+        {
+            "memory_avg": 15.5234375,
+            "memory_std": 0.4041506000484612,
+            "memory_peak": 16.24609375
+        },
+        {
+            "memory_avg": 15.89921875,
+            "memory_std": 1.2595351654510534,
+            "memory_peak": 18.15234375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.58671875,
+            "memory_std": 0.2625976380915297,
+            "memory_peak": 16.00390625
+        },
+        {
+            "memory_avg": 15.86875,
+            "memory_std": 1.0329413213912493,
+            "memory_peak": 17.71484375
+        },
+        {
+            "memory_avg": 15.43671875,
+            "memory_std": 0.09200027333094588,
+            "memory_peak": 15.50390625
+        },
+        {
+            "memory_avg": 15.37890625,
+            "memory_std": 0.06013595436851817,
+            "memory_peak": 15.4609375
+        },
+        {
+            "memory_avg": 15.38359375,
+            "memory_std": 0.0481911578540348,
+            "memory_peak": 15.44921875
+        },
+        {
+            "memory_avg": 15.53828125,
+            "memory_std": 0.18570922173942386,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.85625,
+            "memory_std": 0.9069627786924851,
+            "memory_peak": 17.47265625
+        },
+        {
+            "memory_avg": 15.4265625,
+            "memory_std": 0.08810304192304458,
+            "memory_peak": 15.51171875
+        },
+        {
+            "memory_avg": 15.58671875,
+            "memory_std": 0.4761813280952567,
+            "memory_peak": 16.43359375
+        },
+        {
+            "memory_avg": 15.4,
+            "memory_std": 0.0655156268632244,
+            "memory_peak": 15.48828125
+        },
+        {
+            "memory_avg": 15.934375,
+            "memory_std": 1.033313513124768,
+            "memory_peak": 17.765625
+        },
+        {
+            "memory_avg": 15.6859375,
+            "memory_std": 0.5735314232516221,
+            "memory_peak": 16.70703125
+        },
+        {
+            "memory_avg": 15.38515625,
+            "memory_std": 0.11005647076756778,
+            "memory_peak": 15.58203125
+        },
+        {
+            "memory_avg": 15.4203125,
+            "memory_std": 0.07702348464916399,
+            "memory_peak": 15.4765625
+        },
+        {
+            "memory_avg": 15.49609375,
+            "memory_std": 0.19552722571573952,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.6578125,
+            "memory_std": 0.38994667666814553,
+            "memory_peak": 16.2890625
+        },
+        {
+            "memory_avg": 15.43359375,
+            "memory_std": 0.09765625,
+            "memory_peak": 15.53125
+        },
+        {
+            "memory_avg": 15.4265625,
+            "memory_std": 0.10014028246352713,
+            "memory_peak": 15.5859375
+        },
+        {
+            "memory_avg": 15.57578125,
+            "memory_std": 0.22058383114476002,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.95234375,
+            "memory_std": 1.1441125514010575,
+            "memory_peak": 17.99609375
+        },
+        {
+            "memory_avg": 15.76171875,
+            "memory_std": 0.5620182941758046,
+            "memory_peak": 16.75
+        },
+        {
+            "memory_avg": 15.459375,
+            "memory_std": 0.2165345400421143,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.33828125,
+            "memory_std": 0.002139541240254555,
+            "memory_peak": 15.33984375
+        },
+        {
+            "memory_avg": 15.78984375,
+            "memory_std": 0.952902445840634,
+            "memory_peak": 17.4921875
+        },
+        {
+            "memory_avg": 15.86875,
+            "memory_std": 1.1892225120243347,
+            "memory_peak": 17.99609375
+        },
+        {
+            "memory_avg": 15.47890625,
+            "memory_std": 0.31968784365817304,
+            "memory_peak": 16.05078125
+        },
+        {
+            "memory_avg": 15.6375,
+            "memory_std": 0.18293598927459573,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.5296875,
+            "memory_std": 0.12342142893798366,
+            "memory_peak": 15.671875
+        },
+        {
+            "memory_avg": 16.184375,
+            "memory_std": 1.7212127242695774,
+            "memory_peak": 19.2578125
+        },
+        {
+            "memory_avg": 15.62578125,
+            "memory_std": 0.6481103278534547,
+            "memory_peak": 16.78515625
+        },
+        {
+            "memory_avg": 15.5796875,
+            "memory_std": 0.38055977799671137,
+            "memory_peak": 16.24609375
+        },
+        {
+            "memory_avg": 15.57578125,
+            "memory_std": 0.19161738992349767,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.98203125,
+            "memory_std": 1.3928933834070225,
+            "memory_peak": 18.47265625
+        },
+        {
+            "memory_avg": 15.471875,
+            "memory_std": 0.29530836637318625,
+            "memory_peak": 16.0
+        },
+        {
+            "memory_avg": 15.3546875,
+            "memory_std": 0.04192627457812106,
+            "memory_peak": 15.4296875
+        },
+        {
+            "memory_avg": 15.60390625,
+            "memory_std": 0.48857491169311745,
+            "memory_peak": 16.47265625
+        },
+        {
+            "memory_avg": 15.61953125,
+            "memory_std": 0.20259094456641566,
+            "memory_peak": 15.8359375
+        },
+        {
+            "memory_avg": 15.3359375,
+            "memory_std": 0.0,
+            "memory_peak": 15.3359375
+        },
+        {
+            "memory_avg": 15.8484375,
+            "memory_std": 1.0463771262465704,
+            "memory_peak": 17.71484375
+        },
+        {
+            "memory_avg": 15.7,
+            "memory_std": 0.7359389513653417,
+            "memory_peak": 17.01171875
+        },
+        {
+            "memory_avg": 15.4203125,
+            "memory_std": 0.07702348464916399,
+            "memory_peak": 15.4765625
+        },
+        {
+            "memory_avg": 15.99453125,
+            "memory_std": 1.3765017544769513,
+            "memory_peak": 18.453125
+        },
+        {
+            "memory_avg": 15.3859375,
+            "memory_std": 0.11180339887498948,
+            "memory_peak": 15.5859375
+        }
+    ],
+    "summary": {
+        "memory_avg_mean": 15.5469625,
+        "memory_avg_std": 0.18988265719453293,
+        "memory_peak_mean": 16.1320859375,
+        "memory_peak_std": 0.8580986623183771,
+        "init": {
+            "min": 0.001956,
+            "median": 0.0025985,
+            "p90": 0.003872,
+            "p99": 0.006264,
+            "max": 0.010025,
+            "avg": 0.002828596
+        },
+        "auth": {
+            "min": 0.000312,
+            "median": 0.000534,
+            "p90": 0.001319,
+            "p99": 0.004172,
+            "max": 0.008864,
+            "avg": 0.00078328
+        },
+        "total": {
+            "min": 0.093364,
+            "median": 0.1100255,
+            "p90": 0.116712,
+            "p99": 0.124994,
+            "max": 0.136814,
+            "avg": 0.110099996
+        }
+    }
+}

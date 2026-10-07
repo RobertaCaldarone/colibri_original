@@ -1,0 +1,299 @@
+desc: --massif-out-file=massif.out
+cmd: ./impl/initiator/build/colibri --kex x25519
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=783915
+mem_heap_B=20
+mem_heap_extra_B=20
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=784027
+mem_heap_B=22
+mem_heap_extra_B=42
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=784111
+mem_heap_B=22
+mem_heap_extra_B=42
+mem_stacks_B=0
+heap_tree=detailed
+n2: 22 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 20 0x4ED2956: __dcigettext (dcigettext.c:621)
+  n1: 20 0x4F93CFA: process_long_option (getopt.c:319)
+   n1: 20 0x4F9465F: _getopt_internal_r (getopt.c:651)
+    n1: 20 0x4F948CA: _getopt_internal (getopt.c:712)
+     n1: 20 0x4F94955: getopt_long (getopt1.c:31)
+      n0: 20 0x40062BB: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n1: 2 0x4ED29A3: __dcigettext (dcigettext.c:631)
+  n1: 2 0x4F93CFA: process_long_option (getopt.c:319)
+   n1: 2 0x4F9465F: _getopt_internal_r (getopt.c:651)
+    n1: 2 0x4F948CA: _getopt_internal (getopt.c:712)
+     n1: 2 0x4F94955: getopt_long (getopt1.c:31)
+      n0: 2 0x40062BB: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+#-----------
+snapshot=4
+#-----------
+time=784111
+mem_heap_B=2
+mem_heap_extra_B=22
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=784141
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=785669
+mem_heap_B=460
+mem_heap_extra_B=12
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=786197
+mem_heap_B=932
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=786666
+mem_heap_B=932
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=detailed
+n3: 932 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 472 0x4F21A9E: __fopen_internal (iofopen.c:65)
+  n1: 472 0x4F21A9E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x4877C61: ini_parse (in /usr/lib/x86_64-linux-gnu/libinih.so.61)
+    n0: 472 0x400632F: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n0: 460 0x40062F6: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=786666
+mem_heap_B=460
+mem_heap_extra_B=12
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=787399
+mem_heap_B=475
+mem_heap_extra_B=21
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=787515
+mem_heap_B=947
+mem_heap_extra_B=37
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=788162
+mem_heap_B=5043
+mem_heap_extra_B=45
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=789016
+mem_heap_B=7327
+mem_heap_extra_B=57
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=794307
+mem_heap_B=7327
+mem_heap_extra_B=57
+mem_stacks_B=0
+heap_tree=peak
+n5: 7327 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x4F20CEB: _IO_file_doallocate (filedoalloc.c:91)
+  n1: 4096 0x4F32265: _IO_doallocbuf (genops.c:373)
+   n1: 4096 0x4F30A24: _IO_file_xsgetn (fileops.c:1349)
+    n1: 4096 0x4F2DC1C: fread_unlocked (iofread_u.c:40)
+     n1: 4096 0x4F7EF90: __tzfile_read (tzfile.c:188)
+      n1: 4096 0x4F7E108: tzset_internal (tzset.c:405)
+       n1: 4096 0x4F7EB3C: __tz_convert (tzset.c:577)
+        n1: 4096 0x4005E75: init_event (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+         n1: 4096 0x4005F9B: log_log (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+          n0: 4096 0x400637D: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n1: 2284 0x4F7F13D: __tzfile_read (tzfile.c:281)
+  n1: 2284 0x4F7E108: tzset_internal (tzset.c:405)
+   n1: 2284 0x4F7EB3C: __tz_convert (tzset.c:577)
+    n1: 2284 0x4005E75: init_event (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+     n1: 2284 0x4005F9B: log_log (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+      n0: 2284 0x400637D: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n1: 472 0x4F21A9E: __fopen_internal (iofopen.c:65)
+  n2: 472 0x4F21A9E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x4F7EE89: __tzfile_read (tzfile.c:168)
+    n1: 472 0x4F7E108: tzset_internal (tzset.c:405)
+     n1: 472 0x4F7EB3C: __tz_convert (tzset.c:577)
+      n1: 472 0x4005E75: init_event (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+       n1: 472 0x4005F9B: log_log (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+        n0: 472 0x400637D: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 460 0x40062F6: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n0: 15 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=794307
+mem_heap_B=3231
+mem_heap_extra_B=49
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=794438
+mem_heap_B=2759
+mem_heap_extra_B=33
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=794522
+mem_heap_B=2779
+mem_heap_extra_B=53
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=794701
+mem_heap_B=2799
+mem_heap_extra_B=73
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=794919
+mem_heap_B=2819
+mem_heap_extra_B=93
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=795080
+mem_heap_B=2840
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=800618
+mem_heap_B=2825
+mem_heap_extra_B=103
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=800675
+mem_heap_B=2840
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=809208
+mem_heap_B=2820
+mem_heap_extra_B=92
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=809242
+mem_heap_B=2800
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=detailed
+n4: 2800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2284 0x4F7F13D: __tzfile_read (tzfile.c:281)
+  n1: 2284 0x4F7E108: tzset_internal (tzset.c:405)
+   n1: 2284 0x4F7EB3C: __tz_convert (tzset.c:577)
+    n1: 2284 0x4005E75: init_event (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+     n1: 2284 0x4005F9B: log_log (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+      n0: 2284 0x400637D: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n0: 460 0x40062F6: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n1: 41 0x4F7D6D1: __tzstring_len (tzset.c:98)
+  n1: 41 0x4F7FA2B: __tzfile_read (tzfile.c:414)
+   n1: 41 0x4F7E108: tzset_internal (tzset.c:405)
+    n1: 41 0x4F7EB3C: __tz_convert (tzset.c:577)
+     n1: 41 0x4005E75: init_event (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+      n1: 41 0x4005F9B: log_log (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+       n0: 41 0x400637D: main (in /home/roberta/colibri_original/impl/initiator/build/colibri)
+ n0: 15 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=809276
+mem_heap_B=2780
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=809310
+mem_heap_B=2759
+mem_heap_extra_B=33
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=809342
+mem_heap_B=2744
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=809922
+mem_heap_B=460
+mem_heap_extra_B=12
+mem_stacks_B=0
+heap_tree=empty

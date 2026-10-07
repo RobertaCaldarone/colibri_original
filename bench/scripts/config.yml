@@ -17,3 +17,11 @@ security_level: "L1"                    # specifica il security level della suit
 # Simulazione e iterazioni
 # ==========================
 iterations: 100           # Numero di iterazioni della negoziazione IKE
+
+network_scenario: "terrestrial"   # terrestrial | leo | meo | geo
+delay_ms: 1
+jitter_ms: 0
+loss_pct: 0
+delay_mode: "split"               # split | oneside — sceglietelo e tenetelo fisso per tutta la matrice
+responder_ip: "192.168.100.2"
+cipher_suite: "x25519"            # solo etichetta per il nome file; il valore vero si imposta nel conf.ini (punto 4)

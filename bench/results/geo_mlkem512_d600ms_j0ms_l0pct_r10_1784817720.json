@@ -1,0 +1,98 @@
+{
+    "condition": {
+        "cipher_suite": "mlkem512",
+        "scenario": "geo",
+        "rtt_requested_ms": 600.0,
+        "baseline_rtt_ms": 0.189,
+        "netem_delay_applied_ms": 599.811,
+        "jitter_requested_ms": 0.0,
+        "loss_pct": 0,
+        "delay_mode": "split",
+        "runs": 10,
+        "container_initiator": "initiator_minimal",
+        "connection_name": "colibri"
+    },
+    "timestamp": "2026-07-23 15:42:00",
+    "individual_runs": [
+        {
+            "memory_avg": 15.227864583333334,
+            "memory_std": 1.1401959452742285,
+            "memory_peak": 17.546875
+        },
+        {
+            "memory_avg": 14.735026041666666,
+            "memory_std": 0.20046967353320655,
+            "memory_peak": 15.140625
+        },
+        {
+            "memory_avg": 14.9296875,
+            "memory_std": 0.5573713679378185,
+            "memory_peak": 16.05078125
+        },
+        {
+            "memory_avg": 15.22265625,
+            "memory_std": 0.9020883702467154,
+            "memory_peak": 17.046875
+        },
+        {
+            "memory_avg": 14.921223958333334,
+            "memory_std": 0.32360556347138936,
+            "memory_peak": 15.5546875
+        },
+        {
+            "memory_avg": 14.833984375,
+            "memory_std": 0.1432853819605955,
+            "memory_peak": 15.00390625
+        },
+        {
+            "memory_avg": 14.688151041666666,
+            "memory_std": 0.050655894958142995,
+            "memory_peak": 14.734375
+        },
+        {
+            "memory_avg": 14.712239583333334,
+            "memory_std": 0.07565092961121936,
+            "memory_peak": 14.84765625
+        },
+        {
+            "memory_avg": 14.904947916666666,
+            "memory_std": 0.5579058628683845,
+            "memory_peak": 16.0390625
+        },
+        {
+            "memory_avg": 14.66796875,
+            "memory_std": 0.061267137270930166,
+            "memory_peak": 14.79296875
+        }
+    ],
+    "summary": {
+        "memory_avg_mean": 14.884375,
+        "memory_avg_std": 0.2044135367946172,
+        "memory_peak_mean": 15.67578125,
+        "memory_peak_std": 0.9864276025880305,
+        "init": {
+            "min": 0.002141,
+            "median": 0.0025585,
+            "p90": 0.004204,
+            "p99": 0.004204,
+            "max": 0.004204,
+            "avg": 0.0027628
+        },
+        "auth": {
+            "min": 0.000335,
+            "median": 0.000507,
+            "p90": 0.001114,
+            "p99": 0.001114,
+            "max": 0.001114,
+            "avg": 0.0006177
+        },
+        "total": {
+            "min": 1.208529,
+            "median": 1.2099285,
+            "p90": 1.216688,
+            "p99": 1.216688,
+            "max": 1.216688,
+            "avg": 1.2114974
+        }
+    }
+}
